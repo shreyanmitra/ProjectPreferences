@@ -111,13 +111,7 @@ See `output/sample_report.txt` and `output/sample_assignments.csv` for deliverab
 - Easy to script and automate
 - No hosting or deployment needed
 
-**Website** could be useful later for:
-
-- Non-technical staff who prefer point-and-click
-- Upload CSV in browser, view and download results
-- Could be added as a Streamlit or Flask wrapper
-
-**Desktop/mobile app** is unnecessary for this use case.
+**Website** is on the roadmap.
 
 ## Privacy and data
 
