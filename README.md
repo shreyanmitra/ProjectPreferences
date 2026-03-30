@@ -1,6 +1,6 @@
-# CSE403 Project Team Assignment App
+# Project Team Assignment App
 
-Assigns students to CSE403 project teams based on preferences (project rankings, pitched projects, preferred teammates).
+Assigns students to project teams based on preferences (project rankings, pitched projects, preferred teammates).
 
 ## Repository layout
 
