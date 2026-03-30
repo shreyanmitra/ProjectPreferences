@@ -18,10 +18,5 @@ env/
 *.swp
 *.swo
 
-# Output (except sample deliverables)
-output/*.csv
-output/*.json
-output/*.txt
-!output/.gitkeep
-!output/sample_report.txt
-!output/sample_assignments.csv
+# Generated output (local scratch; not tracked)
+output/

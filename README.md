@@ -9,9 +9,10 @@ Assigns students to CSE403 project teams based on preferences (project rankings,
 | `app.py` | CLI entry point |
 | `src/` | Models, CSV parsing, constraints, greedy + OR-Tools solvers, report/CSV output |
 | `config.example.json` | Example settings (copy to `config.json` locally; `config.json` is gitignored) |
-| `data/` | Sample CSV inputs for testing |
-| `output/` | Example report/CSV outputs (see `.gitignore` for generated artifacts) |
+| `data/` | Sample and fixture CSVs (`sample_input.csv`, `sample_preferences_export.csv`, small OR-Tools vs greedy examples, etc.) |
 | `DESIGN.md` | Algorithm and design notes |
+
+Generated files from `-o` can go anywhere on your machine (for example next to your input CSV). The `output/` directory is gitignored if you use it locally.
 
 ## Requirements
 
@@ -39,13 +40,13 @@ Prints a styled report to stdout (colors, panels, tables). Use `--plain` for pla
 ### Output to file
 
 ```bash
-python app.py input.csv -o output/report.txt
+python app.py input.csv -o report.txt
 ```
 
 ### CSV output
 
 ```bash
-python app.py input.csv -o output/assignments.csv --format csv
+python app.py input.csv -o assignments.csv --format csv
 ```
 
 ### Configuration
@@ -91,16 +92,14 @@ python app.py input.csv --algorithm ortools --ortools-timeout 120
 
 Copy `config.example.json` to `config.json` and edit as needed.
 
-## Sample Input and Output
+## Sample data
 
-The repo includes `data/sample_input.csv` and sample outputs in `output/`:
+Bundled CSVs under `data/` are synthetic: a full-size preferences sheet (`sample_input.csv`, `sample_preferences_export.csv`) and smaller inputs for comparing algorithms (`sample_greedy_vs_ortools.csv`, `sample_ortools_success.csv`). To produce a report or assignment list from the full sample:
 
 ```bash
-python app.py data/sample_input.csv -o output/sample_report.txt
-python app.py data/sample_input.csv -o output/sample_assignments.csv --format csv
+python app.py data/sample_input.csv -o report.txt
+python app.py data/sample_input.csv -o assignments.csv --format csv
 ```
-
-See `output/sample_report.txt` and `output/sample_assignments.csv` for deliverables.
 
 ## UI Recommendation
 
