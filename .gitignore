@@ -1,0 +1,27 @@
+# Local / IDE
+.cursor/
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Output (except sample deliverables)
+output/*.csv
+output/*.json
+output/*.txt
+!output/.gitkeep
+!output/sample_report.txt
+!output/sample_assignments.csv

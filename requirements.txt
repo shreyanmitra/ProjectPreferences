@@ -1,0 +1,6 @@
+# CSE403 Project Team Assignment App
+# Python 3.8+
+
+pandas>=1.5.0
+ortools>=9.0.0
+rich>=13.0.0

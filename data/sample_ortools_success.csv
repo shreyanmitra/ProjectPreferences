@@ -1,0 +1,13 @@
+Name,NetID,Project Pitched,First (1) Choice,Second (2)  Choice,Third (3) Choice,Fourth (4) Choice,Fifth (5) Choice,Team Member #1 UW NetID,Team Member #2 UW NetID,Team Member #3 UW NetID
+Student 1,student1,Project Alpha,Project Alpha,Project Beta,Project Beta,Project Beta,Project Beta,student2,student3,
+Student 2,student2,Project Alpha,Project Alpha,Project Beta,Project Beta,Project Beta,Project Beta,student1,student3,
+Student 3,student3,Project Alpha,Project Alpha,Project Beta,Project Beta,Project Beta,Project Beta,student1,student2,
+Student 4,student4,Project Alpha,Project Alpha,Project Beta,Project Beta,Project Beta,Project Beta,student5,student6,
+Student 5,student5,Project Alpha,Project Alpha,Project Beta,Project Beta,Project Beta,Project Beta,student4,student6,
+Student 6,student6,Project Alpha,Project Alpha,Project Beta,Project Beta,Project Beta,Project Beta,student4,student5,
+Student 7,student7,Project Beta,Project Beta,Project Alpha,Project Alpha,Project Alpha,Project Alpha,student8,student9,
+Student 8,student8,Project Beta,Project Beta,Project Alpha,Project Alpha,Project Alpha,Project Alpha,student7,student9,
+Student 9,student9,Project Beta,Project Beta,Project Alpha,Project Alpha,Project Alpha,Project Alpha,student7,student8,
+Student 10,student10,Project Beta,Project Beta,Project Alpha,Project Alpha,Project Alpha,Project Alpha,student11,student12,
+Student 11,student11,Project Beta,Project Beta,Project Alpha,Project Alpha,Project Alpha,Project Alpha,student10,student12,
+Student 12,student12,Project Beta,Project Beta,Project Alpha,Project Alpha,Project Alpha,Project Alpha,student10,student11,

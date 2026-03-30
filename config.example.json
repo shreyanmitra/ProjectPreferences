@@ -1,0 +1,10 @@
+{
+  "min_team_size": 4,
+  "max_team_size": 6,
+  "preferred_team_size": 6,
+  "max_projects": 14,
+  "rank_points": [6, 5, 4, 3, 2],
+  "needs_members_boost": 10,
+  "algorithm": "ortools",
+  "ortools_timeout_seconds": 60
+}
